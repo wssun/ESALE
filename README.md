@@ -15,7 +15,7 @@ numpy==1.22.3
 We fetch JCSD and PCSD from https://github.com/gingasan/sit3.
 ### Preprocessed dataset
 To get the top N action words of each dataset, you can run the code as follows:
-`python utils/splits.py --dataset_name JCSD --aw_cls 40`
+`python utils/split.py --dataset_name JCSD --aw_cls 40`
 
 ## ESALE
 
