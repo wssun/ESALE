@@ -4,10 +4,10 @@
 ubuntu 18.04
 
 ### Requirements
-python==3.8
-torch==1.7.1
-transformers==4.6.1
-tqdm==4.64.0
+python==3.8<br />
+torch==1.7.1<br />
+transformers==4.6.1<br />
+tqdm==4.64.0<br />
 numpy==1.22.3
 
 ## Dataset
@@ -19,7 +19,7 @@ To get the top N action words of each dataset, you can run the code as follows:
 
 ## ESALE
 
-### Unified Encoder Training 
+### Shared Encoder Training 
 `python encoder_finetune.py --output_dir outputdir/ESALE --dataset_name JCSD --model_name_or_path  microsoft/unixcoder-base --with_test --with_mlm --with_ulm --with_awp --with_cuda --epochs 50`
 
 ### Decoder Training
